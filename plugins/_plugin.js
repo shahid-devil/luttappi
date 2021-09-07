@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re codded by afnanplk
-PINKY V2 
+re codded by shahid-devil
+LUTTAPPI 
 */
 
 const MyPnky = require('../events');
@@ -101,7 +101,7 @@ MyPnky.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DE
                 await message.client.sendMessage(message.jid,LANG.limit + DEG.level + '_', MessageType.text)
                 fs.unlinkSync('/root/WhatsAsenaDuplicated/plugins/' + plugin_name + '.js')
             }
-             if (!match[1].includes('afnanplk') && DEG.level > 99) {
+             if (!match[1].includes('shahid-devil') && DEG.level > 99) {
                 await message.client.sendMessage(message.jid,LANG.limit + DEG.level + '_', MessageType.text)
                 fs.unlinkSync('/root/WhatsAsenaDuplicated/plugins/' + plugin_name + '.js')
             }
@@ -112,7 +112,7 @@ MyPnky.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DE
                 await new Promise(r => setTimeout(r, 400))
                 await message.client.sendMessage(message.jid, LANG.unaffinfo + DEG.level + '_', MessageType.text)
             }
-            else if (!match[1].includes('afnanplk') && DEG.level < 100) {
+            else if (!match[1].includes('shahid-devil') && DEG.level < 100) {
                 await Db.installPlugin(url, plugin_name)
                 await new Promise(r => setTimeout(r, 400))
                 await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text)

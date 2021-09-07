@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-PINKY V2
+LUTTAPPI 
 */
 
 // Komutları burada tutacağız.

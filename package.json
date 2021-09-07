@@ -1,29 +1,29 @@
 {
-  "name": "Pinky",
+  "name": "luttappi",
   "version": "7.3.6",
-  "description": "Pinky is the Modified Version of WhatsAsena.",
-  "main": "./Pinky_V2/bot.js",
+  "description": "luttappi is the Modified Version of WhatsAsena.",
+  "main": "./luttappi/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afnanplk/Pinky_V.git"
+    "url": "git+https://github.com/shahid-devil/luttappi.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
-    "Pinky",
-    "Afnanplk"
+    "luttappi",
+    "shahid-devil"
   ],
-  "author": "Afnanplk",
-  "developer": "@afnanplk",
+  "author": "shahid-devil",
+  "developer": "@shahid-devil",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com//afnanplk/Pinky_V/issues"
+    "url": "https://github.com//shahid-devil/luttappi/issues"
   },
-  "homepage": "https://github.com//afnanplk/Pinky_V#readme",
+  "homepage": "https://github.com//shahid-devil/luttappi#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.4.1",
     "@lh2020/speedtest-net": "^2.1.1",

@@ -2,7 +2,7 @@
 ### We will always remember you..
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/G3voR3j.jpeg" width="170" height="170"/>
+  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="170" height="170"/>
   <p align="center">
 <a href="#"><img title="luttappi" src="https://img.shields.io/badge/shahid-devil?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>

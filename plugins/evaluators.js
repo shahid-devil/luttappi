@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const MyPnky = require('../events');
+const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
@@ -193,7 +193,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
 var alllink_var = ''
 async function afn() {
     await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        AI_var = vars.Z_PINKY_AI
+        AI_var = vars.Z_LUTTAPPI_AI
     });
 }
 afn()
@@ -216,7 +216,7 @@ var plk9 = ''
          plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          plk8 = ' https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
-         plk9 = ' https://github.com/afnanplk/Pinky '
+         plk9 = ' https://github.com/shahid-devil/luttappi '
       }//afnanplk creation
     else {
         plk1 = '🇹​🇴​ 🇬​🇪​🇹​ 🇦​🇱​🇱​ 🇨​🇴​🇲​🇲​🇦​🇳​🇩​🇸​ 🇹​🇾​🇵​🇪​ .🇱​🇮​🇸​🇹​'
@@ -227,7 +227,7 @@ var plk9 = ''
         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
-        plk9 = ' https://github.com/afnanplk/Pinky '
+        plk9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
@@ -237,18 +237,18 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
         let regex1 = new RegExp('command ')
         let regex2 = new RegExp('name ')
         let regex3 = new RegExp('bot ')
-        let regex4 = new RegExp('pinky ')
-        let regex5 = new RegExp('afnanplk ')
+        let regex4 = new RegExp('luttappi ')
+        let regex5 = new RegExp('shahid-devil ')
         let regex6 = new RegExp('supporters ')
         let regex7 = new RegExp('Who are you ')
         let regex8 = new RegExp('movie ')
         let regex9 = new RegExp('Git ')
-        let regex10 = new RegExp(Pinky.OA_NAME)
+        let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -272,7 +272,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));
@@ -280,7 +280,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
 var alllink_var = ''
 async function afn() {
     await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        AI_var = vars.Z_PINKY_AI
+        AI_var = vars.Z_LUTTAPPI_AI
     });
 }
 afn()
@@ -303,7 +303,7 @@ var plk9 = ''
          plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          plk8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
-         plk9 = ' https://github.com/afnanplk/Pinky '
+         plk9 = ' https://github.com/shahid-devil/luttappi '
       }//afnanplk creation
     else {
         plk1 = '🇹​🇴​ 🇬​🇪​🇹​ 🇦​🇱​🇱​ 🇨​🇴​🇲​🇲​🇦​🇳​🇩​🇸​ 🇹​🇾​🇵​🇪​ .🇱​🇮​🇸​🇹​'
@@ -314,7 +314,7 @@ var plk9 = ''
         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
-        plk9 = ' https://github.com/afnanplk/Pinky '
+        plk9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
@@ -324,18 +324,18 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
         let regex1 = new RegExp('command ')
         let regex2 = new RegExp('name ')
         let regex3 = new RegExp('bot ')
-        let regex4 = new RegExp('pinky ')
-        let regex5 = new RegExp('afnanplk ')
+        let regex4 = new RegExp('luttappi ')
+        let regex5 = new RegExp('shahid-devil ')
         let regex6 = new RegExp('supporters ')
         let regex7 = new RegExp('Who are you ')
         let regex8 = new RegExp('movie ')
         let regex9 = new RegExp('Git ')
-        let regex10 = new RegExp(Pinky.OA_NAME)
+        let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -359,7 +359,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));
@@ -367,7 +367,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
 var alllink_var = ''
 async function afn() {
     await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        AI_var = vars.Z_PINKY_AI
+        AI_var = vars.Z_LUTTAPPI_AI
     });
 }
 afn()
@@ -390,7 +390,7 @@ var plk9 = ''
          plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
          plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          plk8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
-         plk9 = ' https://github.com/afnanplk/Pinky '
+         plk9 = ' https://github.com/shahid-devil/luttappi '
       }//afnanplk creation
     else {
         plk1 = '🇹​🇴​ 🇬​🇪​🇹​ 🇦​🇱​🇱​ 🇨​🇴​🇲​🇲​🇦​🇳​🇩​🇸​ 🇹​🇾​🇵​🇪​ .🇱​🇮​🇸​🇹​*'
@@ -401,7 +401,7 @@ var plk9 = ''
         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
-        plk9 = ' https://github.com/afnanplk/Pinky '
+        plk9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
@@ -411,18 +411,18 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex1 = new RegExp('command ')
         let regex2 = new RegExp('name ')
         let regex3 = new RegExp('bot ')
-        let regex4 = new RegExp('pinky ')
-        let regex5 = new RegExp('afnanplk ')
+        let regex4 = new RegExp('luttappi ')
+        let regex5 = new RegExp('shahid-devil ')
         let regex6 = new RegExp('supporters ')
         let regex7 = new RegExp('Who are you ')
         let regex8 = new RegExp('movie ')
         let regex9 = new RegExp('Git ')
-        let regex10 = new RegExp(Pinky.OA_NAME)
+        let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -446,7 +446,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));

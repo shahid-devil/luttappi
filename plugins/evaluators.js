@@ -54,7 +54,7 @@ if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
-MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('http://')
         let regex2 = new RegExp('https://chat')
@@ -160,7 +160,7 @@ if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
-MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (alllink_var == 'true' && message.jid !== '9082891698-1616356915@g.us') {
         let regex1 = new RegExp('http://')
         let regex2 = new RegExp('https://')
@@ -213,7 +213,7 @@ var shazz9 = ''
          shazz3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
          shazz4 = '👻Boo-o-o-oh👻'
          shazz5 = 'എനിക്കറിയാം അവൻ എന്റെ സ്രഷ്ടാവാണെന്ന്'
-         shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ'
+         shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ , ғᴀʀʜᴀɴ'
          shazz7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          shazz8 = ' https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
          shazz9 = ' https://github.com/shahid-devil/luttappi '
@@ -224,14 +224,14 @@ var shazz9 = ''
         shazz3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
         shazz4 = '👻Boo-o-o-oh👻'
         shazz5 = 'i know him he is my creator'
-        shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+        shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ , ꜰᴀʀʜᴀɴ'
         shazz7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         shazz8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
         shazz9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
-MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: false}, (async (message, match) => {
    if (AI_var == 'group' && message.jid !== '919562803423-1627735504@g.us') {
     
         let regex1 = new RegExp('command ')
@@ -245,31 +245,31 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
         let regex9 = new RegExp('Git ')
         let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
-            await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
-            await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz3, MessageType.text, {quoted: message.data })
         }
         else if (regex4.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk4, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz4, MessageType.text, {quoted: message.data })
         }
         else if (regex5.test(message.message)) {
-          await message.client.sendMessage(message.jid,plk5, MessageType.text, {quoted: message.data })
+          await message.client.sendMessage(message.jid,shazz5, MessageType.text, {quoted: message.data })
         }
          else if (regex6.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk6, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz6, MessageType.text, {quoted: message.data })
         }
          else if (regex7.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk7, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz7, MessageType.text, {quoted: message.data })
         }//created by afnanplk
          else if (regex8.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk8, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz8, MessageType.text, {quoted: message.data })
         }
          else if (regex9.test(message.message)) {
-   await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,shazz9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
    await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })
@@ -300,7 +300,7 @@ var shazz9 = ''
          shazz3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
          shazz4 = '👻Boo-o-o-oh👻'
          shazz5 = 'എനിക്കറിയാം അവൻ എന്റെ സ്രഷ്ടാവാണെന്ന്'
-         shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+         shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ , ꜰᴀʀʜᴀɴ'
          shazz7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
          shazz8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
          shazz9 = ' https://github.com/shahid-devil/luttappi '
@@ -311,14 +311,14 @@ var shazz9 = ''
         shazz3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
         shazz4 = '👻Boo-o-o-oh👻'
         shazz5 = 'i know him he is my creator'
-        shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
+        shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ , ꜰᴀʀʜᴀɴ'
         shazz7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         shazz8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
         shazz9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
-MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}, (async (message, match) => {
    if (AI_var == 'pm' && message.jid !== '919562803423-1627735504@g.us') {
     
         let regex1 = new RegExp('command ')
@@ -332,31 +332,31 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
         let regex9 = new RegExp('Git ')
         let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
-            await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
-            await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz3, MessageType.text, {quoted: message.data })
         }
         else if (regex4.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk4, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz4, MessageType.text, {quoted: message.data })
         }
         else if (regex5.test(message.message)) {
-          await message.client.sendMessage(message.jid,plk5, MessageType.text, {quoted: message.data })
+          await message.client.sendMessage(message.jid,shazz5, MessageType.text, {quoted: message.data })
         }
          else if (regex6.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk6, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz6, MessageType.text, {quoted: message.data })
         }
          else if (regex7.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk7, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz7, MessageType.text, {quoted: message.data })
         }//created by afnanplk
          else if (regex8.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk8, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz8, MessageType.text, {quoted: message.data })
         }
          else if (regex9.test(message.message)) {
-   await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,shazz9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
    await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })
@@ -382,30 +382,30 @@ var shazz8 = ''
 var shazz9 = ''
 
  if (Config.LANG == 'ML') {
-         plk1 = '```എല്ലാ കമാൻഡുകളും ലഭിക്കാൻ .list ടൈപ്പ് ചെയ്യുക```'
-         plk2 = 'എന്റെ പേര് '
-         plk3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
-         plk4 = '👻Boo-o-o-oh👻'
-         plk5 = 'എനിക്കറിയാം അവൻ എന്റെ സ്രഷ്ടാവാണെന്ന്'
-         plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
-         plk7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
-         plk8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
-         plk9 = ' https://github.com/shahid-devil/luttappi '
+         shazz1 = '```എല്ലാ കമാൻഡുകളും ലഭിക്കാൻ .list ടൈപ്പ് ചെയ്യുക```'
+         shazz2 = 'എന്റെ പേര് '
+         shazz3 = 'അതെ എന്നോട് പറയൂ, ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കും'
+         shazz4 = '👻Boo-o-o-oh👻'
+         shazz5 = 'എനിക്കറിയാം അവൻ എന്റെ സ്രഷ്ടാവാണെന്ന്'
+         shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ , ғᴀʀʜᴀɴ'
+         shazz7 = 'ഞാൻ .... ആഹ് ഞാൻ ആരാണെന്ന് എനിക്കറിയില്ല \n ഞാൻ ആരാണെന്ന് നിങ്ങൾക്കറിയാമെങ്കിൽ ദയവായി എന്നോട് പറയു🥺🥺'
+         shazz8 = 'https://t.me/malayalam_rocker_s \n നിങ്ങൾക്ക് ഇവിടെ ഏത് സിനിമയും കണ്ടെത്താൻ കഴിയുമെന്ന് ഞാൻ കരുതുന്നു'
+         shazz9 = ' https://github.com/shahid-devil/luttappi '
       }//afnanplk creation
     else {
-        plk1 = '🇹​🇴​ 🇬​🇪​🇹​ 🇦​🇱​🇱​ 🇨​🇴​🇲​🇲​🇦​🇳​🇩​🇸​ 🇹​🇾​🇵​🇪​ .🇱​🇮​🇸​🇹​*'
-        plk2 = 'hey am '
-        plk3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
-        plk4 = '👻Boo-o-o-oh👻'
-        plk5 = 'i know him he is my creator'
-        plk6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ'
-        plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
-        plk8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
-        plk9 = ' https://github.com/shahid-devil/luttappi '
+        shazz1 = '🇹​🇴​ 🇬​🇪​🇹​ 🇦​🇱​🇱​ 🇨​🇴​🇲​🇲​🇦​🇳​🇩​🇸​ 🇹​🇾​🇵​🇪​ .🇱​🇮​🇸​🇹​*'
+        shazz2 = 'hey am '
+        shazz3 = 'ʏᴇꜱ ᴛᴇʟʟ ᴍᴇ, ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ'
+        shazz4 = '👻Boo-o-o-oh👻'
+        shazz5 = 'i know him he is my creator'
+        shazz6 = 'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ᴀғɴᴀɴᴘʟᴋ, ꜰᴀʀʜᴀɴ'
+        shazz7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
+        shazz8 = ' https://t.me/malayalam_rocker_s \n i think you can find any movie here, says amal sir 🤪'
+        shazz9 = ' https://github.com/shahid-devil/luttappi '
     }  
 
 
-MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
    if (AI_var == 'both' && message.jid !== '919562803423-1627735504@g.us') {
     
         let regex1 = new RegExp('command ')
@@ -419,31 +419,31 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex9 = new RegExp('Git ')
         let regex10 = new RegExp(luttappi.OA_NAME)
         if (regex1.test(message.message)) {              
-            await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz2 + luttappi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
-            await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,shazz3, MessageType.text, {quoted: message.data })
         }
         else if (regex4.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk4, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz4, MessageType.text, {quoted: message.data })
         }
         else if (regex5.test(message.message)) {
-          await message.client.sendMessage(message.jid,plk5, MessageType.text, {quoted: message.data })
+          await message.client.sendMessage(message.jid,shazz5, MessageType.text, {quoted: message.data })
         }
          else if (regex6.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk6, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz6, MessageType.text, {quoted: message.data })
         }
          else if (regex7.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk7, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz7, MessageType.text, {quoted: message.data })
         }//created by afnanplk
          else if (regex8.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk8, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,shazz8, MessageType.text, {quoted: message.data })
         }
          else if (regex9.test(message.message)) {
-   await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,shazz9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
    await message.client.sendMessage(message.jid,luttappi.OA_REPLY, MessageType.text, {quoted: message.data })

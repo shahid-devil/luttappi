@@ -1,5 +1,5 @@
 /* Codded by @afnanplk - farhandqz
-PINKY V2
+LUTTAPPI
 */
 
 const MyPnky = require('../events');

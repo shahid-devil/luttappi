@@ -1,4 +1,4 @@
-/* Codded by @PLK
+/* Codded by @SHAZZ
 HEHE
 */
 const MyPnky = require('../events');

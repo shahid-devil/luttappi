@@ -1,4 +1,4 @@
-const MyPnky = require('../events');
+const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const axios = require('axios');
@@ -151,7 +151,7 @@ if (config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,'ᴘɪɴᴋʏ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀꜰɴᴀɴᴘʟᴋ' , MessageType.text, { quoted: message.data });
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK, MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,Config.SHAZZ, MessageType.text, { quoted: message.data });
         }
     }));
 
@@ -313,7 +313,7 @@ else if (config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'ᴘɪɴᴋʏ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀꜰɴᴀɴᴘʟᴋ' , MessageType.text, { quoted: message.data });
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK, MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,Config.SHAZZ, MessageType.text, { quoted: message.data });
         }
     }));
 

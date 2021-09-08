@@ -1,4 +1,5 @@
-/*re edited by afnanplk
+/*coded by afnanplk
+/*re edit by shahid-devl
 */
 
 const MyPnky = require('../events');
@@ -1504,7 +1505,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
     
-    MyPnky.addCommand({pattern: 'pink', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'luttappi', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
         
     var r_text = new Array ();    
 r_text[0] = "\nEda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda\n";
